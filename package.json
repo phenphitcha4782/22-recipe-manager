@@ -4,6 +4,7 @@
   "description": "Recipe Manager",
   "main": "app.js",
   "scripts": {
+     "test": "echo \" success\""
     "start": "node app.js",
     "dev": "nodemon app.js",
     "build": "echo \"build success\""

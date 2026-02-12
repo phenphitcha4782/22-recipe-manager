@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    VERCEL_PROJECT_NAME = 'simple-nodejs-cicd-example'
+    VERCEL_PROJECT_NAME = '22-recipe-manager'
     VERCEL_TOKEN = credentials('devops22-vercel-token') // ดึงจาก Jenkins
   }
   agent {
